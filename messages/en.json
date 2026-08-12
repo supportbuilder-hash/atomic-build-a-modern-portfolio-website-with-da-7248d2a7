@@ -1,0 +1,464 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "navbar": [
+    {
+      "label": "Home",
+      "href": "/",
+      "description": "Navigate to the home page"
+    },
+    {
+      "label": "About",
+      "href": "/about",
+      "description": "Learn about Muhammad Afzal Ishaq"
+    },
+    {
+      "label": "Projects",
+      "href": "/projects",
+      "description": "Browse my work"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact",
+      "description": "Get in touch"
+    }
+  ],
+  "hero": {
+    "badge": "Full Stack Developer",
+    "cta_primary": "View Projects",
+    "cta_secondary": "Get in Touch",
+    "description": "I build full-stack web applications with modern technologies. Specializing in scalable architecture, clean code, and exceptional user experiences.",
+    "greeting": "Hey, I'm",
+    "name": "Muhammad Afzal Ishaq",
+    "social_label": "Connect with me"
+  },
+  "about-preview": [
+    "3+ years shipping production-grade web applications",
+    "Comfortable across the entire stack — React to Node.js to PostgreSQL",
+    "Strong believer in clean architecture, readable code, and meaningful tests",
+    "Collaborative by nature — I thrive in cross-functional teams and async environments"
+  ],
+  "skills": {
+    "description": "Proficient across the full stack with expertise in modern frameworks and cloud infrastructure",
+    "eyebrow": "What I Do",
+    "heading": "Skills & Expertise",
+    "link": "Learn more"
+  },
+  "projects-preview": [
+    {
+      "title": "DevFlow",
+      "description": "A real-time collaborative code review platform built with Next.js, Socket.io, and PostgreSQL. Supports inline comments, threaded discussions, and GitHub PR sync.",
+      "technologies": [
+        "TypeScript",
+        "Next.js",
+        "Socket.io",
+        "PostgreSQL"
+      ],
+      "liveLink": "https://devflow.app",
+      "githubLink": "https://github.com/afzalishaq/devflow"
+    },
+    {
+      "title": "ShopSphere",
+      "description": "A full-stack e-commerce engine with dynamic product catalogues, Stripe payments, and an admin dashboard. Handles 10k+ SKUs with sub-200ms response times.",
+      "technologies": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Stripe API"
+      ],
+      "liveLink": "https://shopsphere.app",
+      "githubLink": "https://github.com/afzalishaq/shopsphere"
+    },
+    {
+      "title": "TaskPilot",
+      "description": "A Kanban-style project management app with drag-and-drop boards, role-based access control, and real-time updates via WebSockets.",
+      "technologies": [
+        "Next.js",
+        "Prisma",
+        "PostgreSQL",
+        "Redis"
+      ],
+      "liveLink": "https://taskpilot.app",
+      "githubLink": "https://github.com/afzalishaq/taskpilot"
+    },
+    {
+      "title": "AuthKit",
+      "description": "An open-source authentication library for Node.js supporting JWT, OAuth 2.0, and magic-link flows. 400+ GitHub stars.",
+      "technologies": [
+        "Node.js",
+        "TypeScript",
+        "Redis"
+      ],
+      "githubLink": "https://github.com/afzalishaq/authkit"
+    }
+  ],
+  "cta": {
+    "button_primary": "View My Work",
+    "button_secondary": "Learn More",
+    "description": "Explore my latest projects and see what I can bring to your team.",
+    "eyebrow": "Featured Work",
+    "heading": "Projects That Matter"
+  },
+  "bio": [
+    "5+ years of full-stack development across startups and product companies",
+    "Fluent in TypeScript, Python, and Go — comfortable picking up new languages fast",
+    "Strong believer in test-driven development and CI/CD best practices",
+    "Open-source contributor with repositories spanning CLI tools, UI libraries, and dev utilities",
+    "Passionate about developer experience — if the tooling is painful, I fix it",
+    "Based in Pakistan, working with clients and teams across Europe, North America, and the Middle East"
+  ],
+  "experience-timeline": [
+    {
+      "role": "Senior Full Stack Developer",
+      "company": "TechNova Solutions",
+      "period": "2022 – Present",
+      "description": "Leading a team of 6 engineers to build a multi-tenant SaaS platform serving 40,000+ users. Architected the Node.js/PostgreSQL backend, introduced TypeScript across the codebase, and reduced API response times by 62% through query optimisation and Redis caching."
+    },
+    {
+      "role": "Full Stack Developer",
+      "company": "Nexbridge Digital",
+      "period": "2020 – 2022",
+      "description": "Delivered end-to-end features for a fintech dashboard used by 15 financial institutions. Built a real-time transaction monitoring module with WebSockets and React, and integrated third-party payment APIs including Stripe and PayFast."
+    },
+    {
+      "role": "Frontend Developer",
+      "company": "Pixel Craft Agency",
+      "period": "2019 – 2020",
+      "description": "Developed responsive marketing sites and e-commerce storefronts for 20+ clients using Next.js and Tailwind CSS. Improved average Lighthouse performance scores from 58 to 91 across the client portfolio."
+    },
+    {
+      "role": "Junior Web Developer",
+      "company": "FreelanceHub",
+      "period": "2018 – 2019",
+      "description": "Kickstarted my professional career building WordPress and Laravel-based solutions for small businesses. Gained hands-on experience with REST API design, MySQL schema modelling, and client communication."
+    }
+  ],
+  "achievements": [
+    {
+      "title": "AWS Certified Developer – Associate",
+      "year": "2023",
+      "description": "Validated expertise in designing, deploying, and debugging cloud-native applications on Amazon Web Services."
+    },
+    {
+      "title": "Meta Front-End Developer Professional Certificate",
+      "year": "2022",
+      "description": "Completed Meta's rigorous curriculum covering React, advanced CSS, and UX fundamentals with a 98% assessment score."
+    },
+    {
+      "title": "Top-Rated Freelancer on Upwork",
+      "year": "2021",
+      "description": "Achieved Top Rated status with a 100% Job Success Score across 30+ completed contracts totalling $85,000+ in earnings."
+    },
+    {
+      "title": "Open Source Milestone — 500+ GitHub Stars",
+      "year": "2023",
+      "description": "My React component library violet-ui crossed 500 stars, adopted by developers across 18 countries."
+    },
+    {
+      "title": "Hackathon Winner — PakDev Hack 2022",
+      "year": "2022",
+      "description": "Led a 3-person team to first place out of 74 teams, building an AI-powered code review assistant in 48 hours."
+    },
+    {
+      "title": "Speaker — JSConf Karachi 2023",
+      "year": "2023",
+      "description": "Delivered a 40-minute talk on Scaling Next.js Applications Beyond 100k Users to an audience of 300+ developers."
+    },
+    {
+      "title": "Mentored 25+ Junior Developers",
+      "year": "2020 – Present",
+      "description": "Through structured 1-on-1 mentorship programmes, helped 25 junior developers land their first full-time engineering roles."
+    },
+    {
+      "title": "Performance Engineering Win",
+      "year": "2023",
+      "description": "Reduced cloud infrastructure costs by 38% at TechNova by rightsizing services, implementing edge caching, and eliminating N+1 query patterns."
+    }
+  ],
+  "projects-grid": [
+    {
+      "title": "DevFlow",
+      "description": "A GitHub-integrated project management dashboard built for solo developers and small teams. Visualises open issues, pull-request velocity, and deployment status in a single real-time view.",
+      "technologies": [
+        "Next.js 14",
+        "TypeScript",
+        "Prisma",
+        "PostgreSQL",
+        "GitHub REST API",
+        "Tailwind CSS"
+      ],
+      "liveLink": "https://devflow.app",
+      "githubLink": "https://github.com/afzalishaq/devflow",
+      "image": "/images/devflow-project-dashboard.jpg"
+    },
+    {
+      "title": "NexAuth",
+      "description": "A plug-and-play authentication microservice supporting OAuth 2.0, magic links, and TOTP 2FA. Ships as an NPM package with a self-hosted dashboard for user management.",
+      "technologies": [
+        "Node.js",
+        "Express",
+        "Redis",
+        "MongoDB",
+        "JWT",
+        "Nodemailer"
+      ],
+      "liveLink": "https://nexauth.dev",
+      "githubLink": "https://github.com/afzalishaq/nexauth",
+      "image": "/images/nexauth-authentication-service.jpg"
+    },
+    {
+      "title": "Portfolify",
+      "description": "A no-code portfolio builder for developers that generates a static Next.js site from a JSON config. Includes live preview, custom domain support, and one-click Vercel deploy.",
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Vercel API",
+        "Zod"
+      ],
+      "liveLink": "https://portfolify.io",
+      "githubLink": "https://github.com/afzalishaq/portfolify",
+      "image": "/images/portfolify-portfolio-builder.jpg"
+    },
+    {
+      "title": "ShopSense",
+      "description": "An AI-powered e-commerce analytics platform that surfaces revenue leaks, cart-abandonment patterns, and product affinity clusters from Shopify store data.",
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "React",
+        "Recharts",
+        "OpenAI API",
+        "Supabase"
+      ],
+      "liveLink": "https://shopsense.ai",
+      "githubLink": "https://github.com/afzalishaq/shopsense",
+      "image": "/images/shopsense-ecommerce-analytics.jpg"
+    },
+    {
+      "title": "CodePulse",
+      "description": "A real-time collaborative code editor with syntax highlighting, multi-cursor support, and integrated GPT-4 code review. Designed for pair-programming sessions and technical interviews.",
+      "technologies": [
+        "React",
+        "Monaco Editor",
+        "Socket.io",
+        "Node.js",
+        "OpenAI API",
+        "Redis"
+      ],
+      "liveLink": "https://codepulse.dev",
+      "githubLink": "https://github.com/afzalishaq/codepulse",
+      "image": "/images/codepulse-collaborative-editor.jpg"
+    },
+    {
+      "title": "TaskHive",
+      "description": "A Kanban-style task manager with drag-and-drop boards, recurring task automation, and Slack/Discord webhook notifications.",
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "Zustand",
+        "Drizzle ORM",
+        "PostgreSQL",
+        "Tailwind CSS"
+      ],
+      "liveLink": "https://taskhive.app",
+      "githubLink": "https://github.com/afzalishaq/taskhive",
+      "image": "/images/taskhive-kanban-task-manager.jpg"
+    },
+    {
+      "title": "MetricsAPI",
+      "description": "A lightweight, self-hosted analytics API that captures page views, custom events, and funnel steps without third-party cookies. GDPR-compliant by design.",
+      "technologies": [
+        "Go",
+        "ClickHouse",
+        "Docker",
+        "REST API",
+        "Grafana"
+      ],
+      "githubLink": "https://github.com/afzalishaq/metricsapi",
+      "image": "/images/metricsapi-analytics-dashboard.jpg"
+    },
+    {
+      "title": "CloudVault",
+      "description": "A secure file storage and sharing service with end-to-end encryption, expiring share links, and folder-level access control.",
+      "technologies": [
+        "Next.js",
+        "AWS S3",
+        "KMS",
+        "Prisma",
+        "PostgreSQL",
+        "Stripe"
+      ],
+      "liveLink": "https://cloudvault.io",
+      "githubLink": "https://github.com/afzalishaq/cloudvault",
+      "image": "/images/cloudvault-secure-file-storage.jpg"
+    }
+  ],
+  "project-details": [
+    {
+      "title": "DevFlow deep-dive",
+      "description": "Chose a polling-plus-webhook hybrid over pure WebSockets to stay within GitHub API rate limits while keeping the UI responsive. Implemented optimistic UI updates with SWR for a snappy feel on slow connections."
+    },
+    {
+      "title": "NexAuth deep-dive",
+      "description": "Designed the token rotation strategy around a sliding-window refresh model, eliminating the need for a dedicated token blacklist table and cutting Redis memory usage by 40% compared to the naive approach."
+    },
+    {
+      "title": "ShopSense deep-dive",
+      "description": "Embedded a lightweight vector store (pgvector on Supabase) to power the product-affinity engine, avoiding the cost and latency of a dedicated ML inference server for a feature used by sub-100ms dashboard queries."
+    },
+    {
+      "title": "CodePulse deep-dive",
+      "description": "Operational Transformation (OT) was evaluated but ultimately replaced with a CRDT-based conflict resolution layer (Yjs) to handle offline edits and reconnection gracefully without a central OT server."
+    }
+  ],
+  "contact-form": [
+    {
+      "label": "Full Name",
+      "placeholder": "Your full name so I know who I'm speaking with"
+    },
+    {
+      "label": "Email Address",
+      "placeholder": "A valid address where I can reach you back"
+    },
+    {
+      "label": "Subject",
+      "placeholder": "e.g. Freelance Project Inquiry or Job Opportunity"
+    },
+    {
+      "label": "Message",
+      "placeholder": "Tell me about your project, timeline, budget, or anything else relevant — the more detail, the better"
+    },
+    {
+      "label": "Send Message",
+      "placeholder": "Submits the form with a success confirmation"
+    }
+  ],
+  "social-links": [
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/muhammadafzalishaq",
+      "description": "Browse my open-source projects, contributions, and code"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com/in/muhammadafzalishaq",
+      "description": "Professional background, endorsements, and career updates"
+    },
+    {
+      "platform": "Twitter / X",
+      "url": "https://twitter.com/afzalishaq_dev",
+      "description": "Thoughts on software engineering, tools, and the dev ecosystem"
+    },
+    {
+      "platform": "Email",
+      "url": "mailto:afzal@muhammadafzalishaq.dev",
+      "description": "Reach me directly for anything time-sensitive"
+    }
+  ],
+  "footer": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/muhammadafzalishaq"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://linkedin.com/in/muhammadafzalishaq"
+    },
+    {
+      "label": "Twitter / X",
+      "url": "https://twitter.com/afzalishaq_dev"
+    },
+    {
+      "label": "Back to top",
+      "url": "#top"
+    }
+  ],
+  "about": {
+    "achievementsEyebrow": "Track Record",
+    "achievementsHeading": "Proven Impact",
+    "achievementsSubtitle": "Delivered scalable solutions and led technical initiatives across diverse projects.",
+    "bioHeading": "About Me",
+    "bioParagraph1": "I'm Muhammad Afzal Ishaq, a Full Stack Developer passionate about building elegant, performant software. With expertise across frontend and backend technologies, I craft end-to-end solutions that solve real problems.",
+    "bioParagraph2": "I thrive in collaborative environments where I can mentor teams, architect systems, and push the boundaries of what's possible with modern web technologies.",
+    "ctaButton": "Let's Work Together",
+    "ctaHeading": "Ready to Build Something Great?",
+    "ctaSubtitle": "I'm always interested in hearing about new projects and opportunities.",
+    "eyebrow": "Full Stack Developer",
+    "heroHeadline": "Crafting Digital Solutions",
+    "heroSubtitle": "Full-stack expertise meets thoughtful design. I build scalable applications that users love.",
+    "highlight1": "Frontend Mastery",
+    "highlight2": "Backend Architecture",
+    "highlight3": "Database Design",
+    "highlight4": "DevOps & Deployment",
+    "skillsHeading": "Core Competencies",
+    "timelineEyebrow": "Experience",
+    "timelineHeading": "Career Journey"
+  },
+  "contact": {
+    "availability": "Available for freelance and full-time opportunities",
+    "badge": "Let's Connect",
+    "form": {
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "heading": "Get in Touch",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell me about your project...",
+      "nameLabel": "Name",
+      "namePlaceholder": "Your name",
+      "privacy": "I respect your privacy. Your information is secure.",
+      "sending": "Sending...",
+      "subheading": "Have a project in mind? Drop me a line and let's discuss.",
+      "subjectLabel": "Subject",
+      "subjectPlaceholder": "Project inquiry",
+      "submit": "Send Message"
+    },
+    "hero": {
+      "subtitle": "Let's turn your ideas into reality. Reach out anytime.",
+      "title": "Start a Conversation"
+    },
+    "left": {
+      "body": "I'm based and available for remote collaboration. Whether you need a full-stack developer, technical consultation, or mentorship, I'm here to help.",
+      "heading": "Connect With Me"
+    },
+    "strip": {
+      "cta": "Get Started",
+      "subtitle": "Ready to collaborate on your next project?",
+      "title": "Let's Build Together"
+    }
+  },
+  "projects": {
+    "case_study": "Case Study",
+    "cta": {
+      "github": "View on GitHub",
+      "primary": "Explore Project",
+      "subtitle": "See how it works",
+      "title": "Ready to dive in?"
+    },
+    "eyebrow": "Featured Work",
+    "filter": {
+      "count": "projects",
+      "empty": "No projects match that filter"
+    },
+    "heading": "Projects",
+    "hero": {
+      "subtitle": "Full-stack solutions built with modern tech and clean code",
+      "title": "Crafting Digital Experiences"
+    },
+    "stats": {
+      "categories": "Categories",
+      "projects": "Projects",
+      "technologies": "Technologies"
+    },
+    "view_all": "View All Projects"
+  },
+  "testimonials": {
+    "description": "Feedback from collaborators and clients",
+    "eyebrow": "Social Proof",
+    "heading": "What Others Say"
+  }
+}

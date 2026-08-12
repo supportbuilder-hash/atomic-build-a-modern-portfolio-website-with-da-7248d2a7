@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Quicksand:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap');
+
+:root {
+  --background: #0A0A0F;
+  --foreground: #E2E8F0;
+  --card: #13131F;
+  --border: #2D2D4E;
+  --muted-foreground: #94A3B8;
+  --primary: #7C3AED;
+  --accent: #A78BFA;
+
+  --brand-primary: #18181B;
+  --brand-on-primary: #FFFFFF;
+  --brand-secondary: #3F3F46;
+  --brand-accent: #7C3AED;
+  --brand-background: #0A0A0F;
+  --brand-foreground: #E2E8F0;
+  --brand-card: #13131F;
+  --brand-muted: #1E1E2E;
+  --brand-muted-foreground: #94A3B8;
+  --brand-border: #2D2D4E;
+  --brand-ring: #7C3AED;
+  --brand-destructive: #DC2626;
+  --brand-glow: rgba(124, 58, 237, 0.15);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', 'Quicksand', sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--foreground);
+}
+
+code, pre, .font-code {
+  font-family: 'Fira Code', monospace;
+}
+
+::selection {
+  background-color: var(--primary);
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+
+.glass {
+  background: rgba(19, 19, 31, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border);
+}
+
+.glow-primary {
+  box-shadow: 0 0 32px 0 rgba(124, 58, 237, 0.25), 0 1px 4px 0 rgba(0,0,0,0.6);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.section-padding {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+@media (min-width: 768px) {
+  .section-padding {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+}
