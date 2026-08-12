@@ -10,8 +10,8 @@
   --card: #13131F;
   --border: #2D2D4E;
   --muted-foreground: #94A3B8;
-  --primary: #7C3AED;
-  --accent: #A78BFA;
+  --primary: #22c55e;
+  --accent: #f97316;
 
   --brand-primary: #18181B;
   --brand-on-primary: #FFFFFF;
@@ -26,6 +26,7 @@
   --brand-ring: #7C3AED;
   --brand-destructive: #DC2626;
   --brand-glow: rgba(124, 58, 237, 0.15);
+    --ring: #22c55e;
 }
 
 * {
